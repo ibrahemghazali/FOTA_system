@@ -1,0 +1,6 @@
+"-specs=/home/hema/Desktop/bootloader_project/bootloader_transfer/build/bootloader/specs/picolibc.specs"
+-Wno-frame-address
+-mlongcalls
+-fno-builtin-memcpy
+-fno-builtin-memset
+-fno-builtin-bzero

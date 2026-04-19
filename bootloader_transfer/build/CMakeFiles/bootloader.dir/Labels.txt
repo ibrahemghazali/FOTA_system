@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/hema/Desktop/bootloader_project/bootloader_transfer/build/CMakeFiles/bootloader
+/home/hema/Desktop/bootloader_project/bootloader_transfer/build/CMakeFiles/bootloader.rule
+/home/hema/Desktop/bootloader_project/bootloader_transfer/build/CMakeFiles/bootloader-complete.rule
+/home/hema/Desktop/bootloader_project/bootloader_transfer/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/hema/Desktop/bootloader_project/bootloader_transfer/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/hema/Desktop/bootloader_project/bootloader_transfer/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/hema/Desktop/bootloader_project/bootloader_transfer/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/hema/Desktop/bootloader_project/bootloader_transfer/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/hema/Desktop/bootloader_project/bootloader_transfer/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/hema/Desktop/bootloader_project/bootloader_transfer/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

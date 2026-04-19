@@ -1,0 +1,2 @@
+source /home/hema/Desktop/bootloader_project/bootloader_transfer/build/gdbinit/symbols
+source /home/hema/Desktop/bootloader_project/bootloader_transfer/build/gdbinit/connect

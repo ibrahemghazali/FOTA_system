@@ -1,0 +1,35 @@
+{
+    "configurations": [
+        {
+            "name": "STM32",
+            "includePath": [
+                "${workspaceFolder}/**",                       // Include everything in the project
+                "${workspaceFolder}/Core/Inc",                 // Main project headers
+                "${workspaceFolder}/Drivers/STM32F4XX_HAL_Driver/Inc",
+                "${workspaceFolder}/Drivers/STM32F4XX_HAL_Driver/Inc/legacy",              // HAL and driver headers
+                "${workspaceFolder}/Drivers/CMSIS/Include",    // CMSIS core headers
+                "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F4xx/Include"  // Device-specific headers
+            ],
+            "defines": [
+                "STM32F401xE",   // Change according to your MCU
+                "USE_HAL_DRIVER" // Enable HAL driver macros
+            ],
+            "compilerPath": "/usr/bin/arm-none-eabi-gcc",  // Compiler path for STM32
+            "cStandard": "c11",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-arm",          // Correct IntelliSense mode for ARM
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**",
+                    "${workspaceFolder}/Core/Inc",
+                    "${workspaceFolder}/Drivers/STM32F4XX_HAL_Driver/Inc",
+                    "${workspaceFolder}/Drivers/STM32F4XX_HAL_Driver/Inc/legacy",   
+                    "${workspaceFolder}/Drivers/CMSIS/Include",
+                    "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
+                ],
+                "limitSymbolsToIncludedHeaders": true      // Speed up autocomplete and limit to included headers
+            }
+        }
+    ],
+    "version": 4
+}

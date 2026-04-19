@@ -1,0 +1,4 @@
+/home/hema/Desktop/bootloader_project/bootloader/build/CMakeFiles/bootloader_project.elf.dir
+/home/hema/Desktop/bootloader_project/bootloader/build/CMakeFiles/flash.dir
+/home/hema/Desktop/bootloader_project/bootloader/build/CMakeFiles/edit_cache.dir
+/home/hema/Desktop/bootloader_project/bootloader/build/CMakeFiles/rebuild_cache.dir
