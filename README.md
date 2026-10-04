@@ -82,7 +82,7 @@ This project enables remote firmware updates over WiFi without physical access t
 
 ---
 
-## 🧠 CRC Details
+##  CRC Details
 
 - Polynomial: 0x04C11DB7
 - Initial Value: 0xFFFFFFFF
