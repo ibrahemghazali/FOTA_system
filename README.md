@@ -1,4 +1,4 @@
-# 🚀 STM32 Wireless Bootloader (FOTA System)
+#  STM32 Wireless Bootloader (FOTA System)
 
 A complete **Firmware Over-The-Air (FOTA)** solution using:
 
@@ -10,7 +10,7 @@ This project enables remote firmware updates over WiFi without physical access t
 
 ---
 
-## 📌 System Architecture
+##  System Architecture
 
 ```
 +---------------------+        TCP/IP        +------------------+        UART        +----------------------+
@@ -21,7 +21,7 @@ This project enables remote firmware updates over WiFi without physical access t
 
 ---
 
-## ⚙️ Features
+##  Features
 
 ### 🔹 STM32 Bootloader
 - UART Communication Protocol
@@ -56,7 +56,7 @@ This project enables remote firmware updates over WiFi without physical access t
 
 ---
 
-## 📡 Communication Protocol
+##  Communication Protocol
 
 ### Command Packet Format
 ```
@@ -90,7 +90,7 @@ This project enables remote firmware updates over WiFi without physical access t
 
 ---
 
-## 🔥 Supported Commands
+##  Supported Commands
 
 | Command | Code | Description |
 |--------|------|------------|
@@ -106,7 +106,7 @@ This project enables remote firmware updates over WiFi without physical access t
 
 ---
 
-## 💾 Memory Layout
+##  Memory Layout
 
 ```
 0x08000000  → Bootloader Start
@@ -117,7 +117,7 @@ Bootloader occupies the first sectors and is protected.
 
 ---
 
-## 🔄 Firmware Upload Flow
+##  Firmware Upload Flow
 
 1. Select firmware file  
 2. Split into chunks (~248 bytes)  
@@ -133,7 +133,7 @@ Bootloader occupies the first sectors and is protected.
 
 ---
 
-## 🔌 ESP32 Role
+##  ESP32 Role
 
 - Receive TCP data from GUI  
 - Forward to STM32 via UART  
@@ -143,7 +143,7 @@ Bootloader occupies the first sectors and is protected.
 
 ---
 
-## 🚧 Safety Features
+##  Safety Features
 
 - CRC validation  
 - Address validation  
